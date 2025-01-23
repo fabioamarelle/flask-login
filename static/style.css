@@ -1,4 +1,3 @@
-/* Contenidor principal centrat amb vores arrodonides */
 .principal {
     border: 1px solid #4CA1AF;
     width: 50%;
@@ -9,13 +8,11 @@
     border-radius: 25px;
 }
 
-/* Fons amb gradient */
 html {
     background-image: linear-gradient(160deg, #71c3cf, #49719e);
     min-height: 100%;
 }
 
-/* Textarea sense mida modificable */
 textarea {
     color: #4CA1AF;
     resize: none;
@@ -26,7 +23,6 @@ textarea {
     font-variation-settings: "wdth" 100;
 }
 
-/* Estil per a títols */
 h1, h2, li, a {
     color: #4CA1AF;
     font-family: "Roboto", serif;
@@ -45,7 +41,6 @@ li, a {
     font-variation-settings: "wdth" 100;
 }
 
-/* Inputs, selects i botons amb el mateix estil */
 input, select, button {
     color: #4CA1AF;
     font-family: "Roboto", serif;
@@ -80,7 +75,6 @@ button:hover {
     cursor: pointer;
 }
 
-/* Estil per a etiquetes i paràgrafs */
 label, p {
     font-family: "Roboto", serif;
     font-optical-sizing: auto;
@@ -91,13 +85,11 @@ label, p {
     color: #4CA1AF;
 }
 
-/* Mides per a imatges (totes són icones) */
 img {
     width: 25px;
     height: 25px;
 }
 
-/* Contenidor per a botons */
 .botons {
     width: 100%;
 }
