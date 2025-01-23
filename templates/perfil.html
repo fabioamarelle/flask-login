@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Perfil</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}" />
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="principal">
+            <a style="float: left;" href="{{ url_for('inicio') }}"><button type="button">Volver a página principal</button></a><br>   
+            <h2>Perfil</h2>
+            <ul>
+                <li><b>Nombre de usuario:</b> {{ cuenta['usuario'] }}</li>
+                <li><b>Correo electrónico:</b> {{ cuenta['email'] }}</li>
+            </ul>
+        </div>
+    </body>
+</html>

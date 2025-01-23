@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inicio</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="principal">
+            <a style="float: right; padding-left: 5px;" href="{{ url_for('logout') }}"><button type="button">Cerrar sesión</button></a>
+            <a style="float: right;" href="{{ url_for('perfil') }}"><button type="button">Perfil</button></a><br>   
+            <h2>Página de inicio</h2>
+            <p>Bienvenido, {{ usuario }}.</p>
+        </div>
+    </body>
+</html>

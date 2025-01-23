@@ -1,0 +1,106 @@
+/* Contenidor principal centrat amb vores arrodonides */
+.principal {
+    border: 1px solid #4CA1AF;
+    width: 50%;
+    padding: 4% 7% 6%;
+    max-width: fit-content;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+
+/* Fons amb gradient */
+html {
+    background-image: linear-gradient(160deg, #71c3cf, #49719e);
+    min-height: 100%;
+}
+
+/* Textarea sense mida modificable */
+textarea {
+    color: #4CA1AF;
+    resize: none;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+/* Estil per a títols */
+h1, h2, li, a {
+    color: #4CA1AF;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+li, a {
+    color: #4CA1AF;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+/* Inputs, selects i botons amb el mateix estil */
+input, select, button {
+    color: #4CA1AF;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-weight: 400;
+    border: 1px solid #4CA1AF;
+}
+
+.button {
+    background-color: #4CA1AF;
+    color: #ffffff;
+    border: 1px solid #4CA1AF;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.button:hover {
+    color: #4CA1AF;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+button {
+    border-radius: 10px;
+    font-size: 15px;
+}
+button:hover {
+    color: #4CA1AF;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+/* Estil per a etiquetes i paràgrafs */
+label, p {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    color: #4CA1AF;
+}
+
+/* Mides per a imatges (totes són icones) */
+img {
+    width: 25px;
+    height: 25px;
+}
+
+/* Contenidor per a botons */
+.botons {
+    width: 100%;
+}
+
+
+

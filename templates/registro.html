@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}" />
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="principal">
+            <form name="formulari" action="{{ url_for('registro') }}" method="post" autocomplete="off">
+
+                <h2> Crear cuenta </h2>
+
+                <!-- Nombre de usuario -->
+                <label for="usuario">
+                    Nombre de usuario
+                </label><br>
+                <input type="text" name="usuario" placeholder="Nombre de usuario" id="usuario" required><br><br>
+
+                <!-- Contraseña -->
+                <label for="contraseña">
+                    Contraseña
+                </label><br>
+                <input type="password" name="contraseña" placeholder="Contraseña" id="contraseña" required><br><br>
+
+                <!-- Correo electrónico -->
+                <label for="email">
+                    Correo electrónico
+                </label><br>
+                <input type="email" name="email" placeholder="Correo electrónico" id="email" required><br><br>
+
+
+                <a href="{{ url_for('login') }}"><button type="button">Iniciar sesión</button></a> <input type="submit" class="button" value="Registrarse">
+            </form>
+        </div>
+    </body>
+</html>
